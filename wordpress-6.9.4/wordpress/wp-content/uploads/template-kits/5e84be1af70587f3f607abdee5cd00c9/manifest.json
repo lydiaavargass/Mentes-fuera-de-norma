@@ -1,0 +1,739 @@
+{
+    "manifest_version": "1.0.19",
+    "title": "Pyro - Writer portfolio Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/pyro\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/pyro\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/pyro\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/pyro\/template-kit\/404\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog Archive",
+            "screenshot": "screenshots\/blog-archive.jpg",
+            "source": "templates\/blog-archive.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/pyro\/template-kit\/blog-archive\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Book",
+            "screenshot": "screenshots\/single-book.jpg",
+            "source": "templates\/single-book.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/pyro\/template-kit\/single-book\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "My Book",
+            "screenshot": "screenshots\/my-book.jpg",
+            "source": "templates\/my-book.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/pyro\/template-kit\/my-book\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Event",
+            "screenshot": "screenshots\/event.jpg",
+            "source": "templates\/event.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/pyro\/template-kit\/event\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/pyro\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/tykit.rometheme.pro\/pyro\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Contact Form 7",
+            "version": "5.4.1",
+            "file": "contact-form-7\/wp-contact-form-7.php",
+            "author": "Takayuki Miyoshi"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.2.4",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.3.0",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "trees-with-snow-mountain.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/trees-with-snow-mountain-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                }
+            ],
+            "filesize": 252824,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/trees-with-snow-mountain-C26FDHS"
+        },
+        {
+            "filename": "LOGO.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/LOGO.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 7659,
+            "dimensions": [
+                700,
+                74
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "mountains.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/mountains-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/single-book.json",
+                    "name": "Single Book"
+                },
+                {
+                    "source": "templates\/event.json",
+                    "name": "Event"
+                }
+            ],
+            "filesize": 254658,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/mountains-MCPG4AL"
+        },
+        {
+            "filename": "foxtail-weeds-P8HB46C.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/foxtail-weeds-P8HB46C-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/blog-archive.json",
+                    "name": "Blog Archive"
+                },
+                {
+                    "source": "templates\/my-book.json",
+                    "name": "My Book"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 212632,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P8HB46C"
+        },
+        {
+            "filename": "bok11.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/bok11.png",
+            "templates": [
+                {
+                    "source": "templates\/blog-archive.json",
+                    "name": "Blog Archive"
+                },
+                {
+                    "source": "templates\/single-book.json",
+                    "name": "Single Book"
+                },
+                {
+                    "source": "templates\/my-book.json",
+                    "name": "My Book"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 220308,
+            "dimensions": [
+                448,
+                620
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bok10.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/bok10.png",
+            "templates": [
+                {
+                    "source": "templates\/blog-archive.json",
+                    "name": "Blog Archive"
+                },
+                {
+                    "source": "templates\/single-book.json",
+                    "name": "Single Book"
+                },
+                {
+                    "source": "templates\/my-book.json",
+                    "name": "My Book"
+                }
+            ],
+            "filesize": 211615,
+            "dimensions": [
+                640,
+                885
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bok9.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/bok9.png",
+            "templates": [
+                {
+                    "source": "templates\/blog-archive.json",
+                    "name": "Blog Archive"
+                },
+                {
+                    "source": "templates\/my-book.json",
+                    "name": "My Book"
+                },
+                {
+                    "source": "templates\/event.json",
+                    "name": "Event"
+                }
+            ],
+            "filesize": 220008,
+            "dimensions": [
+                512,
+                708
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bok8.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/bok8.png",
+            "templates": [
+                {
+                    "source": "templates\/blog-archive.json",
+                    "name": "Blog Archive"
+                },
+                {
+                    "source": "templates\/single-book.json",
+                    "name": "Single Book"
+                },
+                {
+                    "source": "templates\/my-book.json",
+                    "name": "My Book"
+                }
+            ],
+            "filesize": 233487,
+            "dimensions": [
+                576,
+                797
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bok7.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/bok7.png",
+            "templates": [
+                {
+                    "source": "templates\/blog-archive.json",
+                    "name": "Blog Archive"
+                },
+                {
+                    "source": "templates\/single-book.json",
+                    "name": "Single Book"
+                },
+                {
+                    "source": "templates\/my-book.json",
+                    "name": "My Book"
+                }
+            ],
+            "filesize": 146734,
+            "dimensions": [
+                512,
+                708
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bok6.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/bok6.png",
+            "templates": [
+                {
+                    "source": "templates\/my-book.json",
+                    "name": "My Book"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 216102,
+            "dimensions": [
+                384,
+                531
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bok2.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/bok2.png",
+            "templates": [
+                {
+                    "source": "templates\/my-book.json",
+                    "name": "My Book"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 204574,
+            "dimensions": [
+                640,
+                885
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "bok1.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/bok1.png",
+            "templates": [
+                {
+                    "source": "templates\/my-book.json",
+                    "name": "My Book"
+                }
+            ],
+            "filesize": 246327,
+            "dimensions": [
+                448,
+                620
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "stylish-handsome-hipster-bearded-man-portrait-with.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/stylish-handsome-hipster-bearded-man-portrait-with-800x533.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 230474,
+            "dimensions": [
+                1536,
+                1024
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-H2MB6CU"
+        },
+        {
+            "filename": "cver.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/cver.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 254562,
+            "dimensions": [
+                632,
+                632
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Trophy-1.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/Trophy-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 244028,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Trophy-2.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/Trophy-2.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 185361,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Trophy-3.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/Trophy-3.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 248851,
+            "dimensions": [
+                600,
+                800
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "team-1.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/team-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 81603,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-a-diverse-group-of-laughing-entrepreneu-KMF3QCG"
+        },
+        {
+            "filename": "team-2.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/team-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 93869,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-a-diverse-group-of-laughing-entrepreneu-KMF3QCG"
+        },
+        {
+            "filename": "team-3.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/team-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 61349,
+            "dimensions": [
+                800,
+                800
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collage-of-a-diverse-group-of-laughing-entrepreneu-KMF3QCG"
+        },
+        {
+            "filename": "mountains-MCPG4AL.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/mountains-MCPG4AL-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 263006,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MCPG4AL"
+        },
+        {
+            "filename": "stylish-handsome-hipster-bearded-man-portrait-with-H2MB6CU.png",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/stylish-handsome-hipster-bearded-man-portrait-with-H2MB6CU-800x533.png",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 327882,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-H2MB6CU"
+        },
+        {
+            "filename": "panoramic-view-of-bucegi-mountains-carpathian-moun-DYE2V7D.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/panoramic-view-of-bucegi-mountains-carpathian-moun-DYE2V7D-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 261085,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-DYE2V7D"
+        },
+        {
+            "filename": "flower-beds-with-white-flowers-muscari-SEYDW7C.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/flower-beds-with-white-flowers-muscari-SEYDW7C-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 247409,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SEYDW7C"
+        },
+        {
+            "filename": "flower-QLW6T9H.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/flower-QLW6T9H-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 250290,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QLW6T9H"
+        },
+        {
+            "filename": "the-sierras-mountains-DPFEBUU.jpg",
+            "thumbnail_url": "http:\/\/tykit.rometheme.pro\/pyro\/wp-content\/uploads\/sites\/13\/2021\/07\/the-sierras-mountains-DPFEBUU-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 253985,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-DPFEBUU"
+        }
+    ]
+}
